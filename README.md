@@ -3,6 +3,15 @@
 Tự động kiểm tra độ mạnh mật khẩu hàng loạt từ file `.txt` và xuất báo cáo Excel.
 
 ---
+## Kiến trúc & Tech stack
+
+**Vấn đề giải quyết:** Kiểm tra thủ công hàng loạt mật khẩu tốn thời gian, dễ bỏ sót — công cụ này tự động hóa hoàn toàn.
+
+| Thành phần | Lý do chọn |
+|------------|-----------|
+| **Python** | Đa nền tảng, dễ đọc, stdlib mạnh |
+| **openpyxl** | Xuất Excel không cần cài Office, hỗ trợ màu sắc/định dạng |
+| **re + logging** | Có sẵn trong stdlib, không phụ thuộc thêm |
 
 ## Tiêu chí đánh giá
 
@@ -70,14 +79,4 @@ bob:password123
 
 ---
 
-## Kiến trúc & Tech stack
 
-**Vấn đề giải quyết:** Kiểm tra thủ công hàng loạt mật khẩu tốn thời gian, dễ bỏ sót — công cụ này tự động hóa hoàn toàn.
-
-| Thành phần | Lý do chọn |
-|------------|-----------|
-| **Python** | Đa nền tảng, dễ đọc, stdlib mạnh |
-| **openpyxl** | Xuất Excel không cần cài Office, hỗ trợ màu sắc/định dạng |
-| **re + logging** | Có sẵn trong stdlib, không phụ thuộc thêm |
-
-> Toàn bộ logic gói gọn trong **1 file `check.py`** — dễ copy, dễ deploy.

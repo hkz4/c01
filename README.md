@@ -77,6 +77,15 @@ bob:password123
 | `password_report_<timestamp>.xlsx` | Sheet **Chi tiết** (màu xanh/đỏ) + Sheet **Tóm tắt** |
 | `debug.txt` | Log DEBUG đầy đủ, ghi lỗi nếu có |
 
+
+---
 ---
 
+## Demo
+<img width="1765" height="502" alt="image" src="https://github.com/user-attachments/assets/efb2f733-37b2-45c2-8981-efd0432d149b" />
 
+
+
+<img width="1238" height="699" alt="image" src="https://github.com/user-attachments/assets/e53eb0fe-acd1-4f73-974a-4a0ff81f6af4" />
+
+---
